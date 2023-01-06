@@ -1,4 +1,4 @@
-# Leaf-epithelium-analysis-using-Python
+# Leaf epithelium analysis using Python
 
 
 6 January 2023
