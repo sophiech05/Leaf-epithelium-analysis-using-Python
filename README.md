@@ -34,21 +34,13 @@ List of libraries / modules that are required to run our code:
 
 
 - Pandas
-
 - Matplotlib
-
 - Napari
-
 - Magicgui
-
 - Skimage
-
 - Numpy
-
 - Tifffile
-
 - Glob
-
 - Seaborn
 
 
@@ -107,9 +99,9 @@ This will look like this:
 
 ## Limitations 
 
-The segmentation of some images is still not perfect even after changing characteristics. We can correct the mask manually but this takes time.
-In the 'global_cell_count.csv' file created automatically, the column with the file names is missing and we should add it manually, which is also time consuming and therefore has to be improved.
-We can consider improve the code so it can create automatically an additional folder 'results_per_image' in which will be saved all the csv files with the positions of the cells (instead of them be stored just next to the 'global_cell_count.csv' file). This will make the interpretation of the results easier and clearer. 
+- The segmentation of some images is still not perfect even after changing characteristics. We can correct the mask manually but this takes time.
+- In the 'global_cell_count.csv' file created automatically, the column with the file names is missing and we should add it manually, which is also time consuming and therefore has to be improved.
+- We can consider improve the code so it can create automatically an additional folder 'results_per_image' in which will be saved all the csv files with the positions of the cells (instead of them be stored just next to the 'global_cell_count.csv' file). This will make the interpretation of the results easier and clearer. 
 
 
 
