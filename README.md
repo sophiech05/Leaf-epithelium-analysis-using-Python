@@ -117,22 +117,22 @@ The species and sample names may be cross-referenced using the `global_database_
 
 Here is the format for naming the microscope images: 
 
-The first convention has a number of numeric fields separated by hyphens; fields 1 and 2 combined determine the species (see `global_database_cleaned.csv` file); 
-Field 3 contains the magnification of the field; 
-Field 4 denotes the side of the leaf represented in the picture (i.e. adaxial or abaxial; please see `global_database_cleaned.csv`); 
-Field 5 is an arbitrary numbering of the images from a leaf side.
+- The first convention has a number of numeric fields separated by hyphens; fields 1 and 2 combined determine the species (see `global_database_cleaned.csv` file); 
+- Field 3 contains the magnification of the field; 
+- Field 4 denotes the side of the leaf represented in the picture (i.e. adaxial or abaxial; please see `global_database_cleaned.csv`); 
+- Field 5 is an arbitrary numbering of the images from a leaf side.
 
 
 When the orientation of the leaf is not set, it is unknown.
 
 ### FDV_leaf_database
 
-This folder contains 26 .png image files of photographs of various species. 
-The species and sample names may be cross-referenced using the `global_database_cleaned.csv` included in the `FDV_database` folder. 
+- This folder contains 26 .png image files of photographs of various species. 
+- The species and sample names may be cross-referenced using the `global_database_cleaned.csv` included in the `FDV_database` folder. 
 
 
 ### global_database_cleaned.csv
 
-This csv file contains the information about the 116 images from the database. 
-The first column `plant_name` contains the name of the species.
-The second column `cell_fname` contains the name of the file containing the microscopic image of the corresponding species. 
+- This csv file contains the information about the 116 images from the database. 
+- The first column `plant_name` contains the name of the species.
+- The second column `cell_fname` contains the name of the file containing the microscopic image of the corresponding species. 
