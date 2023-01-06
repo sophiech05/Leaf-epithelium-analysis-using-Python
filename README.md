@@ -90,6 +90,7 @@ The mask should ideally look like this:
 
 
 Tip: if there are some labels that do not represent cells and are not able to better it by varying parameters, you can delete them manually. Click on “fill” and chose label 0, then delete the label simply by clicking on it on the image: 
+
 <img width="249" alt="Capture d’écran 2023-01-06 à 10 52 55" src="https://user-images.githubusercontent.com/122089106/210979920-edff4689-fcad-48fb-a9b5-60ffdfc66b19.png">
 
 
