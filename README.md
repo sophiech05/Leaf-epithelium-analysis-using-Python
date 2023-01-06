@@ -34,14 +34,14 @@ List of libraries / modules that are required to run our code:
 
 
 - `Pandas`
-- Matplotlib
-- Napari
-- Magicgui
-- Skimage
-- Numpy
-- Tifffile
-- Glob
-- Seaborn
+- `Matplotlib`
+- `Napari`
+- `Magicgui`
+- `Skimage`
+- `Numpy`
+- `Tifffile`
+- `Glob`
+- `Seaborn`
 
 
 ## HOW MANY CELLS?
@@ -50,11 +50,11 @@ List of libraries / modules that are required to run our code:
 This code will allow you to count the number of cells present on your microscopic photograph and to determine their positions. 
 Here is how to use this code: 
 
-0) Download the folder 'how_many_cells'. 
-You will find files \utils.py\, /how_many_cells.ipynb/, and a folder with images we worked on. 
+0) Download the folder `how_many_cells`. 
+You will find files `utils.py`, `how_many_cells.ipynb`, and a folder with images we worked on. 
 
-1) Using your terminal, launch the Jupyter Notebook and open the Notebook how_many_cells.
-2) Run the first block of the code. You will have to enter 2 times the path leading to the images we want to process. You must enter the full path, depending on where you put your /how_many_cells/ folder. The following is an example of what you should enter: 
+1) Using your terminal, launch the Jupyter Notebook and open the Notebook `how_many_cells`.
+2) Run the first block of the code. You will have to enter 2 times the path leading to the images we want to process. You must enter the full path, depending on where you put your `how_many_cells` folder. The following is an example of what you should enter: 
 /Users/chavignysophie/Desktop/Bioinfo_project/how_many_cells/images
 <img width="729" alt="Capture d’écran 2023-01-05 à 21 10 23" src="https://user-images.githubusercontent.com/122089106/210978454-7037d522-0c66-491e-af8e-76af39b628ed.png">
 
@@ -87,7 +87,7 @@ Tip: if there are some labels that do not represent cells and are not able to be
 
 
 7) Repeat this with all the images you want to analyze.
-8) When you are done, all the results are collected in the folder 'how_many_cells'. 
+8) When you are done, all the results are collected in the folder `how_many_cells`. 
 You will see one csv file that summarizes all your results (name of the image, number of cells counted, name of the csv file with the positions of the cells/their centroids) and csv files with the positions of the cells/their centroids for each processed image.
 This will look like this:  
 <img width="792" alt="Capture d’écran 2023-01-06 à 10 57 11" src="https://user-images.githubusercontent.com/122089106/210980393-c86f0c72-3236-4f6c-ba73-366d38238b6a.png">
@@ -96,8 +96,8 @@ This will look like this:
 ## Limitations 
 
 - The segmentation of some images is still not perfect even after changing characteristics. We can correct the mask manually but this takes time.
-- In the 'global_cell_count.csv' file created automatically, the column with the file names is missing and we should add it manually, which is also time consuming and therefore has to be improved.
-- We can consider improve the code so it can create automatically an additional folder 'results_per_image' in which will be saved all the csv files with the positions of the cells (instead of them be stored just next to the 'global_cell_count.csv' file). This will make the interpretation of the results easier and clearer. 
+- In the `global_cell_count.csv` file created automatically, the column with the file names is missing and we should add it manually, which is also time consuming and therefore has to be improved.
+- We can consider improve the code so it can create automatically an additional folder `results_per_image` in which will be saved all the csv files with the positions of the cells (instead of them be stored just next to the `global_cell_count.csv` file). This will make the interpretation of the results easier and clearer. 
 
 
 
@@ -113,13 +113,13 @@ Vőfély, Róza V., Gallagher, Joseph, Pisano, Grace D., Bartlett, Madelaine, & 
 ### FDV_cell_database
 
 This folder contains 116 .tif image files for stained epidermis sampled from various species. 
-The species and sample names may be cross-referenced using the 'global_database_cleaned.csv' included in the 'FDV_database' folder. 
+The species and sample names may be cross-referenced using the `global_database_cleaned.csv` included in the `FDV_database` folder. 
 
 Here is the format for naming the microscope images: 
 
-The first convention has a number of numeric fields separated by hyphens; fields 1 and 2 combined determine the species (see 'global_database_cleaned.csv' file); 
+The first convention has a number of numeric fields separated by hyphens; fields 1 and 2 combined determine the species (see `global_database_cleaned.csv` file); 
 Field 3 contains the magnification of the field; 
-Field 4 denotes the side of the leaf represented in the picture (i.e. adaxial or abaxial; please see 'global_database_cleaned.csv'); 
+Field 4 denotes the side of the leaf represented in the picture (i.e. adaxial or abaxial; please see `global_database_cleaned.csv`); 
 Field 5 is an arbitrary numbering of the images from a leaf side.
 
 
@@ -128,11 +128,11 @@ When the orientation of the leaf is not set, it is unknown.
 ### FDV_leaf_database
 
 This folder contains 26 .png image files of photographs of various species. 
-The species and sample names may be cross-referenced using the 'global_database_cleaned.csv' included in the 'FDV_database' folder. 
+The species and sample names may be cross-referenced using the `global_database_cleaned.csv` included in the `FDV_database` folder. 
 
 
 ### global_database_cleaned.csv
 
 This csv file contains the information about the 116 images from the database. 
-The first column 'plant_name' contains the name of the species.
-The second column 'cell_fname' contains the name of the file containing the microscopic image of the corresponding species. 
+The first column `plant_name` contains the name of the species.
+The second column `cell_fname` contains the name of the file containing the microscopic image of the corresponding species. 
