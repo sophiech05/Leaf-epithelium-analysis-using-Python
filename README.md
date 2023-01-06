@@ -99,6 +99,29 @@ This will look like this:
 - In the `global_cell_count.csv` file created automatically, the column with the file names is missing and we should add it manually, which is also time consuming and therefore has to be improved.
 - We can consider improve the code so it can create automatically an additional folder `results_per_image` in which will be saved all the csv files with the positions of the cells (instead of them be stored just next to the `global_cell_count.csv` file). This will make the interpretation of the results easier and clearer. 
 
+---------------------------------
+## EXPANSION DIRECTIONS
+Using this code, you may examine the growth of the cells seen on your microscopic image by calculating their "lobeyness," which is the deviation of 2D cell contours from the shapes of typical undifferentiated cells.
+
+### How to use
+
+0) Make sure you have a folder containing all your images in “.tif” format.
+Download ’...py' and `how_can_we_infer_the_cell_expansion_directions.ipynb`, and place them beside your images folder. 
+Import all the imports needed, indicated in the jupyter notebook.
+
+Determine the mask of each image using the create_label function and running this code, after indicating the correct path to the pictures
+Store the mask by species (one folder for each species).
+Run the convexhull_perimeter function.
+Run the measure_species function, indicating the correct path to the species containing the mask images and the name of the corresponding species. → You will get for each species a dataframe with all the data needed to study its cell expansion.
+Concatenate all the data frame into a one single one, with this code:   
+
+
+
+### Limitations 
+The masked images appear beside the original images. We have to manually move the masked images into their respective folder, organized according to their species. We can consider improving the code adding a .imwrite() to direct the segmented images.
+We name the data frames and give its paths, for each species individually. We can consider improving the code by making a loop to automate the data frame containing all the data of every species.
+The code for the parametric map is functional but the results are not in line with the expectations, and it's difficult to understand what the different colors correspond to.
+
 
 
 
