@@ -33,7 +33,7 @@ A cell membrane, also known as a plasma membrane, and made of semipermeable lipi
 List of libraries / modules that are required to run our code:
 
 
-- \Pandas\
+- 'Pandas'
 - Matplotlib
 - Napari
 - Magicgui
