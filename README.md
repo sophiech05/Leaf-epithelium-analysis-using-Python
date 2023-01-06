@@ -33,7 +33,7 @@ A cell membrane, also known as a plasma membrane, and made of semipermeable lipi
 List of libraries / modules that are required to run our code:
 
 
-- Pandas
+- \Pandas\
 - Matplotlib
 - Napari
 - Magicgui
@@ -51,7 +51,7 @@ This code will allow you to count the number of cells present on your microscopi
 Here is how to use this code: 
 
 0) Download the folder 'how_many_cells'. 
-You will find files /utils.py/, /how_many_cells.ipynb/, and a folder with images we worked on. 
+You will find files \utils.py\, /how_many_cells.ipynb/, and a folder with images we worked on. 
 
 1) Using your terminal, launch the Jupyter Notebook and open the Notebook how_many_cells.
 2) Run the first block of the code. You will have to enter 2 times the path leading to the images we want to process. You must enter the full path, depending on where you put your /how_many_cells/ folder. The following is an example of what you should enter: 
