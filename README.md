@@ -93,37 +93,53 @@ This will look like this:
 <img width="792" alt="Capture d’écran 2023-01-06 à 10 57 11" src="https://user-images.githubusercontent.com/122089106/210980393-c86f0c72-3236-4f6c-ba73-366d38238b6a.png">
 
 
-## Limitations 
+### Limitations 
 
 - The segmentation of some images is still not perfect even after changing characteristics. We can correct the mask manually but this takes time.
 - In the `global_cell_count.csv` file created automatically, the column with the file names is missing and we should add it manually, which is also time consuming and therefore has to be improved.
 - We can consider improve the code so it can create automatically an additional folder `results_per_image` in which will be saved all the csv files with the positions of the cells (instead of them be stored just next to the `global_cell_count.csv` file). This will make the interpretation of the results easier and clearer. 
 
 ---------------------------------
-## EXPANSION DIRECTIONS
+
+## CELL EXPANSION
 Using this code, you may examine the growth of the cells seen on your microscopic image by calculating their "lobeyness," which is the deviation of 2D cell contours from the shapes of typical undifferentiated cells.
 
 ### How to use
 
-0) Make sure you have a folder containing all your images in “.tif” format.
-Download ’...py' and `how_can_we_infer_the_cell_expansion_directions.ipynb`, and place them beside your images folder. 
-Import all the imports needed, indicated in the jupyter notebook.
+0) Download the folder `cell_expansion`. 
+You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images we worked on. 
 
-Determine the mask of each image using the create_label function and running this code, after indicating the correct path to the pictures
-Store the mask by species (one folder for each species).
-Run the convexhull_perimeter function.
-Run the measure_species function, indicating the correct path to the species containing the mask images and the name of the corresponding species. → You will get for each species a dataframe with all the data needed to study its cell expansion.
-Concatenate all the data frame into a one single one, with this code:   
+1) Using your terminal, launch the Jupyter Notebook and open the Notebook `cell_expansion`.
+2) Run the first block of the code in order to import all the imports needed, indicated in the jupyter notebook.
 
+3) Determine the mask of each image using the create_label function and running this code, after indicating the correct path to the pictures
+4) Store the mask by species (one folder for each species).
+5) Run the convexhull_perimeter function.
+6) Run the measure_species function, indicating the correct path to the species containing the mask images and the name of the corresponding species. → You will get for each species a dataframe with all the data needed to study its cell expansion.
+7) Concatenate all the data frame into a one single one, with this code:   
 
 
 ### Limitations 
-The masked images appear beside the original images. We have to manually move the masked images into their respective folder, organized according to their species. We can consider improving the code adding a .imwrite() to direct the segmented images.
-We name the data frames and give its paths, for each species individually. We can consider improving the code by making a loop to automate the data frame containing all the data of every species.
-The code for the parametric map is functional but the results are not in line with the expectations, and it's difficult to understand what the different colors correspond to.
+- The masked images appear beside the original images. We have to manually move the masked images into their respective folder, organized according to their species. We can consider improving the code adding a .imwrite() to direct the segmented images.
+- We name the data frames and give its paths, for each species individually. We can consider improving the code by making a loop to automate the data frame containing all the data of every species.
+- The code for the parametric map is functional but the results are not in line with the expectations, and it's difficult to understand what the different colors correspond to.
 
 
 
+## CELLS CONNECTIONS
+
+### How to use
+
+0) Download the folder `cell_connections`. 
+You will find files `utils.py`, `xx`, `cell_connections.ipynb`, and a folder with images we worked on. 
+
+1) Using your terminal, launch the Jupyter Notebook and open the Notebook `cell_connections`.
+2) Run the first block of the code in order to import all the imports needed, indicated in the jupyter notebook.
+
+
+### Limitations 
+
+- Sometimes, the algorithm identifies points that aren’t junctions because of the quality of the segmentation. We can either correct it manually or think about ways to improve the segmentation automatically. 
 
 
 ---------------------------------
@@ -159,3 +175,6 @@ When the orientation of the leaf is not set, it is unknown.
 - This csv file contains the information about the 116 images from the database. 
 - The first column `plant_name` contains the name of the species.
 - The second column `cell_fname` contains the name of the file containing the microscopic image of the corresponding species. 
+
+
+
