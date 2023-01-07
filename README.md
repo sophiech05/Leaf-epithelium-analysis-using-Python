@@ -43,6 +43,7 @@ List of libraries / modules that are required to run our code:
 - `Glob`
 - `Seaborn`
 - `Sklearn`
+- `CV2`
 
 
 ## HOW MANY CELLS?
