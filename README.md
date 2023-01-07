@@ -168,9 +168,13 @@ You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images
 
 ![Capture d’écran (114)](https://user-images.githubusercontent.com/122090278/211162800-029f7766-512b-447d-8118-3a902658908b.png)
 
+6) Run the last widget to get the skeleton of the "preproccessing result (data)" 
 
+![Capture d’écran (115)](https://user-images.githubusercontent.com/122090278/211162859-ca4d22a9-c7bf-4fc6-97c8-393da584ac34.png)
 
+7) Change the widget from ""preproccessing result (data)"  to "skeleton result (data)" to get the junctions on the csv
 
+![Capture d’écran (117)](https://user-images.githubusercontent.com/122090278/211162893-d1888754-d4d2-4429-8600-00dcf2bb8c12.png)
 
 
 
