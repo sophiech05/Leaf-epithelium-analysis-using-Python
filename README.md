@@ -52,7 +52,7 @@ List of libraries / modules that are required to run our code:
 This code will allow you to count the number of cells present on your microscopic photograph and to determine their positions. 
 Here is how to use this code: 
 
-0) Download the folder `how_many_cells.zip`. 
+0) Download the folder `how_many_cells.zip `. 
 You will find files `utils.py`, `how_many_cells.ipynb`, and a folder with images we worked on. 
 
 1) Using your terminal, launch the Jupyter Notebook and open the Notebook `how_many_cells.ipynb`.
@@ -155,7 +155,7 @@ You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images
 
 ### How to use
 
-0) Download the folder `cell_connections.zip`. 
+0) Download the folder `cell_connections.zip `. 
 You will find files `utils.py`, `xx`, `cell_connections.ipynb`, and a folder with images we worked on. 
 
 1) Using your terminal, launch the Jupyter Notebook and open the Notebook `cell_connections.ipynb`.
