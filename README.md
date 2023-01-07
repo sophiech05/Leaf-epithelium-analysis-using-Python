@@ -116,8 +116,9 @@ You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images
 
 3) Determine the mask of each image using the create_label function and running this code, after indicating the correct path to the pictures
 4) Store the mask by species (one folder for each species).
-5) Run the convexhull_perimeter function.
-6) Run the measure_species function, indicating the correct path to the species containing the mask images and the name of the corresponding species. → You will get for each species a dataframe with all the data needed to study its cell expansion.
+5) Run the `convexhull_perimeter` function.
+6) Run the `measure_species` function, indicating the correct path to the species containing the mask images and the name of the corresponding species. 
+→ You will get for each species a dataframe with all the data needed to study its cell expansion.
 7) Concatenate all the data frame into a one single one  
 
 ![image1](https://user-images.githubusercontent.com/122090278/211149641-d1e25eae-f0f2-4b92-a280-a846d32d087e.png)
