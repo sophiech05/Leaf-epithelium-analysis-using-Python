@@ -188,7 +188,7 @@ When the orientation of the leaf is not set, it is unknown.
 - The species and sample names may be cross-referenced using the `global_database_cleaned.csv` included in the `FDV_database` folder. 
 
 
-### global_database_cleaned.csv
+### global_database.csv
 
 - This csv file contains the information about the 116 images from the database. 
 - The first column `plant_name` contains the name of the species.
