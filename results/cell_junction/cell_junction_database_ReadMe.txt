@@ -1,0 +1,1 @@
+Here is a example of the .csv that our program outputs. There are only three because it takes a lot of time to get a good segmentation, and moreover our program doesn't have a way to fuse close junctions into one, outputting often too large numbers of junctions, making the data analysis meaningless.
