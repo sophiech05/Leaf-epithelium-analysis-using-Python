@@ -116,7 +116,23 @@ You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images
 4) Store the mask by species (one folder for each species).
 5) Run the convexhull_perimeter function.
 6) Run the measure_species function, indicating the correct path to the species containing the mask images and the name of the corresponding species. → You will get for each species a dataframe with all the data needed to study its cell expansion.
-7) Concatenate all the data frame into a one single one, with this code:   
+7) Concatenate all the data frame into a one single one  
+
+![image4](https://user-images.githubusercontent.com/122090278/211149597-6f9be029-1939-4b85-9818-4adcea4ae64c.png)
+
+
+8) Run the code for the violin plot
+
+Mettre image 2
+
+9) Run the code for the scatter plot
+
+Mettre image 3
+
+10) To verify our plots, we run the code to create a parametric map
+
+Mettre image 4
+
 
 
 ### Limitations 
