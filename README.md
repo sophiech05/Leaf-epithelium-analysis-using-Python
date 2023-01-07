@@ -155,11 +155,23 @@ You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images
 
 ### How to use
 
-0) Download the folder `cell_connections.zip `. 
-You will find files `utils.py`, `xx`, `cell_connections.ipynb`, and a folder with images we worked on. 
+0) Download the files`utils.py`, `junction_finder.py`, `cell_connections.ipynb`, and a folder with images we worked on. 
 
 1) Using your terminal, launch the Jupyter Notebook and open the Notebook `cell_connections.ipynb`.
 2) Run the first block of the code in order to import all the imports needed, indicated in the jupyter notebook.
+3) Open a napari Viewer
+4) Run the code to get all the widgets on napari:
+
+![Capture d’écran (113)](https://user-images.githubusercontent.com/122090278/211162756-f606a833-9a30-4d61-a6f9-928fb353d415.png)
+
+5) Choose an image .tif and run the first widget to get the processed image 
+
+![Capture d’écran (114)](https://user-images.githubusercontent.com/122090278/211162800-029f7766-512b-447d-8118-3a902658908b.png)
+
+
+
+
+
 
 
 ### Limitations 
