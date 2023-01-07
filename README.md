@@ -52,10 +52,10 @@ List of libraries / modules that are required to run our code:
 This code will allow you to count the number of cells present on your microscopic photograph and to determine their positions. 
 Here is how to use this code: 
 
-0) Download the folder `how_many_cells`. 
+0) Download the folder `how_many_cells.zip`. 
 You will find files `utils.py`, `how_many_cells.ipynb`, and a folder with images we worked on. 
 
-1) Using your terminal, launch the Jupyter Notebook and open the Notebook `how_many_cells`.
+1) Using your terminal, launch the Jupyter Notebook and open the Notebook `how_many_cells.ipynb`.
 2) Run the first block of the code. You will have to enter 2 times the path leading to the images we want to process. You must enter the full path, depending on where you put your `how_many_cells` folder. The following is an example of what you should enter: 
 /Users/chavignysophie/Desktop/Bioinfo_project/how_many_cells/images
 <img width="729" alt="Capture d’écran 2023-01-05 à 21 10 23" src="https://user-images.githubusercontent.com/122089106/210978454-7037d522-0c66-491e-af8e-76af39b628ed.png">
@@ -108,10 +108,10 @@ Using this code, you may examine the growth of the cells seen on your microscopi
 
 ### How to use
 
-0) Download the folder `cell_expansion`. 
+0) Download the folder `cell_expansion.zip`. 
 You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images we worked on. 
 
-1) Using your terminal, launch the Jupyter Notebook and open the Notebook `cell_expansion`.
+1) Using your terminal, launch the Jupyter Notebook and open the Notebook `cell_expansion.ipynb`.
 2) Run the first block of the code in order to import all the imports needed, indicated in the jupyter notebook.
 
 3) Determine the mask of each image using the create_label function and running this code, after indicating the correct path to the pictures
@@ -120,7 +120,7 @@ You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images
 6) Run the measure_species function, indicating the correct path to the species containing the mask images and the name of the corresponding species. → You will get for each species a dataframe with all the data needed to study its cell expansion.
 7) Concatenate all the data frame into a one single one  
 
-[image1](https://user-images.githubusercontent.com/122090278/211149641-d1e25eae-f0f2-4b92-a280-a846d32d087e.png)
+![image1](https://user-images.githubusercontent.com/122090278/211149641-d1e25eae-f0f2-4b92-a280-a846d32d087e.png)
 
 
 8) Run the code for the violin plot!
@@ -152,10 +152,10 @@ You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images
 
 ### How to use
 
-0) Download the folder `cell_connections`. 
+0) Download the folder `cell_connections.zip`. 
 You will find files `utils.py`, `xx`, `cell_connections.ipynb`, and a folder with images we worked on. 
 
-1) Using your terminal, launch the Jupyter Notebook and open the Notebook `cell_connections`.
+1) Using your terminal, launch the Jupyter Notebook and open the Notebook `cell_connections.ipynb`.
 2) Run the first block of the code in order to import all the imports needed, indicated in the jupyter notebook.
 
 
