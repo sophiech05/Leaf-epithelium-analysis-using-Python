@@ -108,7 +108,7 @@ Using this code, you may examine the growth of the cells seen on your microscopi
 
 ### How to use
 
-0) Download the folder `cell_expansion.zip`. 
+0) Download the folder `cell_expansion.zip `. 
 You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images we worked on. 
 
 1) Using your terminal, launch the Jupyter Notebook and open the Notebook `cell_expansion.ipynb`.
