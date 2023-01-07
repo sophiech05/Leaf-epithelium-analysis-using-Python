@@ -141,6 +141,8 @@ You will find files `utils.py`, `cell_expansion.ipynb`, and a folder with images
 - The masked images appear beside the original images. We have to manually move the masked images into their respective folder, organized according to their species. We can consider improving the code adding a .imwrite() to direct the segmented images.
 - We name the data frames and give its paths, for each species individually. We can consider improving the code by making a loop to automate the data frame containing all the data of every species.
 - The code for the parametric map is functional but the results are not in line with the expectations, and it's difficult to understand what the different colors correspond to.
+ 
+
 
 
 
