@@ -42,6 +42,7 @@ List of libraries / modules that are required to run our code:
 - `Tifffile`
 - `Glob`
 - `Seaborn`
+- `Sklearn`
 
 
 ## HOW MANY CELLS?
